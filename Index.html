@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="logo">
+        <img src="https://static.wikia.nocookie.net/spongebob/images/5/59/Mrs._Puff%2C_You%27re_Fired.jpg" alt="School Logo">
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="profile.html">Our Profile</a></li>
+        <li><a href="#achievement">Achievement</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Your content goes here -->
+  <section class="section1">
+    <h1>Hi, Welcome to Partick StarDev's World</h1>
+    <h2>Ini adalah Dunia Stardev</h2>
+    <div class="slideshow">
+      <div class="slide">
+        <img src="https://i.ytimg.com/vi/9c65pxsu_HM/maxresdefault.jpg" alt="Image 1">
+      </div>
+      <div class="slide">
+        <img src="https://cdn.allfamous.org/group/medium/patrick-star-uapg-allfamous.org.jpg" alt="Image 2">
+      </div>
+      <div class="slide">
+        <img src="https://cdn.allfamous.org/group/wiki/patrick-star-uapg-allfamous.org.jpg" alt="Image 3">
+      </div>
+  </section>
+
+  <section class="section2">
+    <h1>Fasilitas</h1>
+    <div class="facility-container">
+      <div class="facility">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/crime-security-military-law/services-security-icon.png" alt="Security Icon">
+        <p>Keamanan</p>
+        <p>Deskripsi tentang keamanan</p>
+      </div>
+      <div class="facility">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/crime-security-military-law/services-security-icon.png" alt="Computer Icon">
+        <p>Ini Komputer</p>
+        <p>Penjelasan tentang komputer</p>
+      </div>
+      <div class="facility">
+        <img src="https://cdn4.iconfinder.com/data/icons/hygiene-21/64/show-clean-hands-health-quarantine-sars-covid19-coronavirus-1024.png" alt="Clean Icon">
+        <p>Kebersihan</p>
+        <p>Sebagian dari iman adalah kebersihan</p>
+      </div>
+    </div>
+  </section>
+  <section class="message-section">
+    <div class="column-container">
+      <div class="column form-column">
+        <h2>Message Us</h2>
+        <form id="message-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+      <div class="column result-column">
+      <h2>Submitted Data</h2>
+      <div id="result-data"></div>
+    </div>
+  </section>
+  <script src="JS/Script.JS"></script>
+</body>
+</html>

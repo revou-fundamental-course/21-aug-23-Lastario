@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation li {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .section1 {
+    text-align: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  .section1 h1 {
+    font-size: 36px;
+  }
+  
+  .section1 h2 {
+    font-size: 24px;
+  }
+  
+  .slideshow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slideshow img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .section2 {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .section2 h1 {
+    font-size: 36px;
+  }
+  
+  .facility-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .facility {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .facility img {
+    max-width: 50px;
+  }
+
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .column h2 {
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container,
+  .result-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow {
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    width: 100%;
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  /* Add more styling as needed */
+  
+  /* Add more styling as needed */
+  
+  /* Add styling for active link or hover effects as needed */
+  @media screen and (max-width: 768px) {
+    .facility-container {
+      flex-direction: column;
+    }
+  }  
